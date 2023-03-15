@@ -9,16 +9,6 @@ How many years of RELEVANT experience do you have in the field? 5 Years
 
 Please provide detailed descriptions of at least 2 digital technology projects or products you handled. We are interested in understanding your specific role in the project?
 
-- ### GitSync Hub
-This Django app allows you to clone a GitHub repository and save its JSON data to an SQL database Asynchronously using celery, its covering at least 2 use cases, 
-
-### Use Cases:
-1. Admin can add/update/delete a github link to/on/from the system.
-2. User can view the list of git links saved to the system.
-3. User can view the progress of cloning on the home page.
-4. User can Register/Login/Logout.
-5. Admin can add/update/delete JsonDump added to the system automatically from the github file.
-
 ### Project 1
 
 - Parcel Delivery System (REST-API)
@@ -119,12 +109,57 @@ Overall, my approach to keeping track of everyone's work would be to establish c
 
 #### Have you ever dealt with conflicts on a project? If so, how did you handle them?
 
+In TaskPie, there was a disagreement between team members about the best approach to implement notifications on the app and whether to use Firebase or not.
+As a team member, I decided took it upon myself to find a resolution to the conflict and ensure that the project continued to move forward smoothly.
+I organized a meeting with the team members involved in the conflict to discuss the issue and hear everyone's perspective. I ensured that everyone had a chance to voice their opinion and that everyone listened actively without interrupting each other.
+After hearing everyone's thoughts, I synthesized the information and proposed a compromise that took into account everyone's concerns. I explained the benefits of the proposed solution and why it would be the best approach for the project, we ended up using firebase because it was a faster approacha dn was widely used meaning a lot of peopele have had any errors we could encounter and that would lead to fixing them faster if we find the solution online.
+
+Result: The team members were able to come to a mutual agreement and work together to implement the new feature. The project continued to progress smoothly and the team members involved in the conflict were able to work together effectively for the remainder of the project.
+
 #### How often do you meet with your team during a project? Do you prefer to meet with the entire team or just team leaders? Why?
+ I believe that regular communication and collaboration are essential for the success of any project. Therefore, I have regular team meetings to ensure that everyone is on the same page, share progress updates, and identify any roadblocks weekly or daily, before start of day when theres a serious deadline to meet.
+
+I prefer to meet with the entire team, including team leaders, during these meetings as it allows everyone to provide input and feedback on the project as a whole. It also ensures that there is alignment across the different areas of the project and helps to identify potential issues before they become problems. However, I also think that one-on-one meetings with team leaders can be useful for discussing more specific issues or concerns that may arise.
 
 #### Describe one of your most challenging projects so far. Why was it challenging, and what did you do to overcome the difficulties?
+One of my most challenging projects was when I had to add missing filters to Nautobot's user model.
+The task was to add missing filters to Nautobot's user model, but it was challenging because the existing codebase was complex and lacked proper documentation, and there was no guidance available from the project team.
+To overcome these difficulties, I started by thoroughly studying the codebase and identifying the missing filters. I then created a plan and discussed it with the team to ensure that it aligned with the project goals. Next, I wrote tests to ensure that the filters worked as intended and did not affect existing functionality. I also wrote documentation to ensure that the new filters were well-documented, making it easier for future developers to understand and maintain the code. I collaborated with seniors and sought feedback from them to ensure that my implementation met their requirements and was in line with the project's standards.
+My efforts were appreciated by the project team, and I gained valuable experience in working with complex codebases and collaborating with a team to achieve a common goal.
 
 #### How do you approach task assignment within your team?
+In my previous project, I was part of a team of software engineers working on a TaskPie an app that bids menial services to advance services to prospect customers to sove a particuar task for the customer.
+Task assignment was a crucial aspect of our project since we needed to ensure that all team members were working efficiently and collaboratively towards the project goals.
+To approach task assignment within the team, we first identified the individual strengths and weaknesses of each team member. We then leveraged this knowledge to assign tasks that aligned with each team member's skills and expertise.
+We used project management tools such as Trello to track the progress of each task and ensure that they were completed on time. We also held regular team meetings to discuss any challenges, provide feedback, and offer support where necessary.
+
+Result: This approach to task assignment within the team resulted in increased productivity, as team members were able to work on tasks that aligned with their strengths, leading to better outcomes. Additionally, regular team meetings and the use of project management tools helped to keep everyone on the same page, making it easier to manage tasks and achieve project goals.
 
 #### Describe a time when you realized your current approach wasn’t working, and how did you resolve it?
+During a project, I was tasked with implementing an asynchronous bulk upload in the codebase.
+I initially approached the task with a specific plan in mind, but soon realized that my approach was not working as I encountered unexpected issues like the code allowed empty files and non-csv files also to be uploaded and it wont get added to the data base.
+I took a step back and reevaluated my approach. I looked for alternative solutions and consulted with other team members to gather their insights and suggestions. I also did additional research to better understand the problem and possible solutions.
+With the new information and feedback, I was able to come up with a more effective approach and successfully implemented the feature. This experience taught me the importance of being adaptable and open-minded, as well as the value of seeking out diverse perspectives and collaborating with team members.
 
 #### Describe your experience in working with Agile Methodology?
+As a software engineer, I have worked on several projects that utilized the Agile methodology especially TaskPie.
+One of the most significant benefits of Agile methodology is the ability to quickly adapt to changing requirements and customer feedback. In a project where i volunteered, we were able to use Agile methodology to deliver new features and functionality to the customer rapidly.
+During the sprint planning, we would determine the requirements for each sprint and break down the user stories into smaller tasks that can be completed within the sprint's duration. Daily stand-up meetings were held to ensure that everyone on the team was on the same page and any issues were promptly addressed.
+As the project progressed, we conducted sprint retrospectives to evaluate our performance and identify areas for improvement. We also used tools like Trello to track the progress of each task and ensure that we were meeting our deadlines.
+Overall, my experience in working with Agile methodology has been positive, and I have found it to be an effective way of delivering high-quality software while accommodating changes in requirements and customer feedback.
+
+#### Please share with us links to some of your work that is in public domain.  Github, Stackoverflow, Hackerrank and similar are acceptable. 
+
+Parcel Delivery System: https://github.com/egenius01/Parcel-Delivery-System-REST-API-
+CampusBuy: https://github.com/maro-okegbero/campusbuy2.0
+GitSync Hub: https://github.com/egenius01/GitSyncHub
+dotNotes: https://github.com/egenius01/dotNotes
+DjangoBlog: https://github.com/egenius01/DjangoBlog
+
+
+#### Our objective is to assess the quality of your work.  Should you not have anything available in the public domain, we will have to give you a relevant test to access your skill. 
+
+
+### i
+
+
